@@ -9,12 +9,12 @@ This script analyzes frames from a video source and categorizes them into two fo
 
 **Instructions:**
 
-1. Before running the script, make sure you have Python 3.x installed along with the required libraries. You can install the necessary packages using the following command:
-   pip install opencv-python
-2. You can run the code by opening blur_detection.py in any editor
+1. Before running the code, make sure you have Python 3.x installed along with the required libraries. You can install the necessary packages using the following command:
+   **pip install opencv-python**
+3. You can run the code by opening blur_detection.py in any editor.
    The code will prompt you to uncomment one of the video source options (sample video 1, sample video 2, or camera video capture) by removing the '#' symbol. This will set the source of the frames for processing.
-3. The script will process the frames from the selected video source. It will display each frame and annotate whether it's "BLURRY" or "CLEAR" based on the calculated Laplacian variance. You can press 'q' to exit the frame display.
-4. After processing, the script will generate a clear video from the frames categorized as clear and save it as "mygeneratedvideo.avi" in the same directory.
+4. The code will process the frames from the selected video source. It will display each frame and annotate whether it's "BLURRY" or "CLEAR" based on the calculated Laplacian variance. You can press 'q' to exit the frame display.
+5. After processing, the script will generate a clear video from the frames categorized as clear and save it as "mygeneratedvideo.avi" in the same directory.
 
 **Customization:**
 - Video Sources - You can easily add more video source options by uncommenting the corresponding lines of code and providing the video file path.
