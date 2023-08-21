@@ -23,9 +23,9 @@ This script analyzes frames from a video source and categorizes them into two fo
 
 **Folder Structure:**
 project_folder/
--|-- blur_detection.py
--|-- blur_frames/           # Folder for blurry frames
--|-- clear_frames/          # Folder for clear frames
--|-- sample_video_1.mp4     # Sample video 1 (uncommented)
--|-- sample_video_2.mp4     # Sample video 2 (commented)
--|-- README.md              # This README file
+- |-- blur_detection.py
+- |-- blur_frames/           # Folder for blurry frames
+- |-- clear_frames/          # Folder for clear frames
+- |-- sample_video_1.mp4     # Sample video 1 (uncommented)
+- |-- sample_video_2.mp4     # Sample video 2 (commented)
+- |-- README.md              # This README file
