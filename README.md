@@ -17,15 +17,15 @@ This script analyzes frames from a video source and categorizes them into two fo
 4. After processing, the script will generate a clear video from the frames categorized as clear and save it as "mygeneratedvideo.avi" in the same directory.
 
 **Customization:**
-Video Sources - You can easily add more video source options by uncommenting the corresponding lines of code and providing the video file path.
-Threshold - The blur-clear classification threshold is set at laplacian_var < 50. You can adjust this value in the code to make the threshold more or less strict.
+- Video Sources - You can easily add more video source options by uncommenting the corresponding lines of code and providing the video file path.
+- Threshold - The blur-clear classification threshold is set at laplacian_var < 50. You can adjust this value in the code to make the threshold more or less strict.
 
 
 **Folder Structure:**
 project_folder/
-|-- blur_detection.py
-|-- blur_frames/           # Folder for blurry frames
-|-- clear_frames/          # Folder for clear frames
-|-- sample_video_1.mp4     # Sample video 1 (uncommented)
-|-- sample_video_2.mp4     # Sample video 2 (commented)
-|-- README.md              # This README file
+-|-- blur_detection.py
+-|-- blur_frames/           # Folder for blurry frames
+-|-- clear_frames/          # Folder for clear frames
+-|-- sample_video_1.mp4     # Sample video 1 (uncommented)
+-|-- sample_video_2.mp4     # Sample video 2 (commented)
+-|-- README.md              # This README file
